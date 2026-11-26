@@ -79,14 +79,14 @@ footer p { max-width: none; }
 
 <header>
   <h1>Timothy Porter</h1>
-  <p class="lede">I’m a technical writer. I document APIs, machine learning software, and enterprise products so that experts can rely on them and newcomers can get started.</p>
+  <p class="lede">I’m a technical writer experienced in B2B IT operations and management, machine vision software, and APIs. My educational background is in physics and clinical epidemiology. </p>
 
   <div class="sheet">
     <dl>
       <dt>Currently</dt>
-      <dd>Technical Writer at ControlUp, since 2022</dd>
+      <dd>Product Content Developer at ControlUp, since 2022</dd>
       <dt>Previously</dt>
-      <dd>Technical Writer at Matrox Imaging (machine learning SDK); research assistant at a pediatric research unit</dd>
+      <dd>Technical Writer at Matrox Imaging (Now Zebra Aurora Vision); Healthcare Research Assistant; Physics Research Assistant</dd>
       <dt>Writes about</dt>
       <dd>API reference, machine learning and computer vision tooling, deployment guides, release communications</dd>
       <dt>Works with</dt>
@@ -104,28 +104,23 @@ footer p { max-width: none; }
 
   <article class="entry">
     <h3><a href="https://aurorahelp.zebra.com/aurorail/MILXSP5HelpFiles/MILHelp.htm?topic=UserGuide\ML_Classification_and_classifier_overview\Steps_to_using_the_MIL_Classification_module.htm">Steps to using the MIL Classification module</a></h3>
-    <p class="meta">Matrox Imaging · User guide for a C++ machine learning SDK</p>
-    <p>A walkthrough for developers who build image classification models with the SDK. I wrote the guide and the surrounding classification overview, and turned the workflow into diagrams so the order of steps is clear before any code is read.</p>
+    <p class="meta">Matrox Imaging · User guide for a C++ machine vision SDK</p>
+    <p>A walkthrough for developers who build image classification models with the SDK. I wrote the guide covering dataset creation and labeling, model training, and implementing the model in manufacturing and production environments. I also wrote the reference for the C++ SDK.</p>
   </article>
 
   <article class="entry">
     <h3><a href="https://support.controlup.com/docs/index-registry">Index Registry</a></h3>
     <p class="meta">ControlUp · Field-level reference for about 1,700 data fields · In progress</p>
-    <p>The product’s data fields had no descriptions or units, which slowed advanced users and internal staff who build reports, scripts, and alerts. No other team had taken the work on, so I did. I extracted field information from the code, then compared each claim against live data from multiple customer tenants. Anything that looked unusual was flagged and tested by hand before it was published.</p>
+    <p>The product’s data fields had no descriptions or units, which slowed advanced users and internal staff who build custom reports, scripts, and alerts. Other people have had AI pull descriptions from the code before, but nobody was willing to verify and publish a list for customer use. I built a tool to generate descriptions, compare them to data from real environments, and flag anything unusual for me to manually test and verify. We now have a source of information that we can stand behind with confidence that speeds up customer time-to-value and reduces customer tickets. This project blends AI automation with old-school manual testing, without either of which it wouldn't be possible.</p>
     <p class="also"><a href="https://cdn.document360.io/098100b7-b9da-4bea-b4b9-017140ab863e/Images/Documentation/IndexRegistryV1.html">Open the registry in a full window</a></p>
   </article>
 
   <article class="entry">
     <h3><a href="https://support.controlup.com/docs/edge-dx-agent-distribution-and-installation-for-windows">Agent distribution and installation for Windows</a></h3>
     <p class="meta">ControlUp · Deployment guide</p>
-    <p>Installing the agent is the first hurdle for most customers, and mass deployment through a Windows image was a frequent source of support tickets. This guide takes an administrator from a single install to a repeatable rollout.</p>
+    <p>Installing the agent is the first hurdle for most customers, and mass deployment through a Windows image was a frequent source of support tickets. This guide takes an administrator from a single install to a repeatable rollout, and is the result of many conversations with the Customer Support team to learn where customers get stuck.</p>
   </article>
 
-  <article class="entry">
-    <h3><a href="https://support.controlup.com/docs/september-2026">Release notes, September 2026</a></h3>
-    <p class="meta">ControlUp · Release communication</p>
-    <p>Monthly release notes for a product that ships across several development teams on an irregular schedule. They are checked against what actually shipped, so customers can tell what changed and whether it affects them.</p>
-  </article>
 </section>
 
 <section aria-labelledby="approach">
@@ -134,7 +129,6 @@ footer p { max-width: none; }
     <li>I test documentation against the real product, including live API endpoints, before it is published.</li>
     <li>I write for the reader’s task. A developer integrating an API and an administrator rolling out software need different pages.</li>
     <li>I check content for accuracy, including AI-generated drafts, and remove claims that I can’t verify.</li>
-    <li>I pull my own numbers and make my own figures with Python.</li>
   </ul>
 </section>
 
