@@ -52,6 +52,7 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-
 .sheet dt, .sheet dd { margin: 0; padding: 0.7rem 1rem; border-top: 1px solid var(--rule); }
 .sheet dt:first-of-type, .sheet dd:first-of-type { border-top: 0; }
 .sheet dt { color: var(--muted); font-size: 0.9rem; }
+.links { font-size: 1.05rem; margin: 0 0 1.75rem; }
 @media (max-width: 34rem) {
   .sheet dl { grid-template-columns: 1fr; }
   .sheet dt { padding-bottom: 0; border-top: 1px solid var(--rule); }
@@ -79,7 +80,9 @@ footer p { max-width: none; }
 
 <header>
   <h1>Timothy Porter</h1>
-  <p class="lede">I’m a technical writer experienced in B2B IT operations and management, machine vision software, and APIs.</p>
+  <p class="lede">Experienced in developer and enterprise software for IT operations, machine vision, and APIs.</p>
+
+  <p class="links"><a href="TimothyPorter-Resume.pdf">Resume (PDF)</a> · <a href="mailto:timporter91@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/timothy-porter-4211991b0">LinkedIn</a></p>
 
   <div class="sheet">
     <dl>
@@ -88,7 +91,7 @@ footer p { max-width: none; }
       <dt>Previously</dt>
       <dd>Technical Writer at Matrox Imaging (Now Zebra Aurora Vision); Healthcare Research Assistant; Physics Research Assistant</dd>
       <dt>Education</dt>
-      <dd>BSc Physics, 2022<br>Graduate diploma in Clinical Epidemiology, 2023</dd>
+      <dd>BSc Physics, 2020<br>Graduate diploma in Clinical Epidemiology, 2022</dd>
     </dl>
   </div>
 </header>
@@ -105,8 +108,7 @@ footer p { max-width: none; }
   <article class="entry">
     <h3><a href="https://support.controlup.com/docs/index-registry" target="_blank">Index Registry</a></h3>
     <p class="meta">ControlUp · Field-level reference for about 1,700 data fields · In progress</p>
-    <p>The product’s data fields had no descriptions or units, which slowed advanced users and internal staff who build custom reports, scripts, and alerts. Other people have had AI pull descriptions from the code before, but nobody was willing to verify and publish a list for customer use.</p>
-    <p>I built a tool to generate descriptions, compare them to data from real environments, and flag anything unusual for me to manually test and verify. We now have a source of information that we can stand behind with confidence that speeds up customer time-to-value and reduces customer tickets. This project blends AI automation with old-school manual testing, without either of which it wouldn't be possible.</p>
+    <p>About 1,700 data fields had no descriptions or units, which made it hard for advanced users and internal staff to build reports, scripts, and alerts. I built a tool that drafts each description from the source code, compares it against live data from real environments, and flags anything unusual. I manually tested every flagged item before publishing, so the reference is one we can stand behind.</p>
   </article>
 
   <article class="entry">
